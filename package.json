@@ -16,5 +16,9 @@
     "url": "https://github.com/AidinYazdi/PersonalWebsite/issues"
   },
   "homepage": "https://github.com/AidinYazdi/PersonalWebsite#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
 }
