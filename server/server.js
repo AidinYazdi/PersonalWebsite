@@ -2,6 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const app = express();
 const { readFile } = require('fs').promises;
+const path = require('path');
 
 function fullpath(file) {
   return path.join(__dirname, file);
